@@ -47,3 +47,11 @@ body{
 	background-size: cover;
 	background-position: 50% 25%;
 }
+
+@media (max-width: 500px) {
+	.jumbotron{
+		background: url('../img/hero-mobile.jpg') no-repeat;
+		background-size: cover;
+		background-position: 50% 25%;
+	}
+}

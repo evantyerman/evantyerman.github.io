@@ -49,6 +49,9 @@ body{
 	background-size: cover;
 	background-position: 50% 25%;
 }
+.player{
+	border: 10px solid #000;
+}
 
 @media (max-width: 500px) {
 	.jumbotron{

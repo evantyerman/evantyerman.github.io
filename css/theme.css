@@ -20,6 +20,8 @@ body{
 .navbar-default .navbar-brand {
     color: #FFFFFF;
     font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #FFFFFF;
@@ -53,5 +55,11 @@ body{
 		background: url('../img/hero-mobile.jpg') no-repeat;
 		background-size: cover;
 		background-position: 50% 25%;
+	}
+}
+
+@media (max-width: 400px) {
+	.navbar-default .navbar-brand {
+	    font-size: 12px;
 	}
 }

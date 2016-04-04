@@ -43,7 +43,7 @@ body{
 
 .jumbotron{
 	background: url('../img/hero.jpg') no-repeat;
-	height: 80vh;
-	background-size: 100%;
+	height: 70vh;
+	background-size: cover;
 	background-position: 50% 25%;
 }
